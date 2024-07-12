@@ -7,7 +7,6 @@ import java.util.List;
 
 public interface UserHistoryRepository extends JpaRepository<UserHistory, Long> {
 
-    // 특정 userId 의 UserHistory 가져오기
+    // 특정 userId 의 UserHistory  가져오기
     List<UserHistory> findByUserId(Long userId);
-
 }

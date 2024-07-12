@@ -21,7 +21,7 @@ class BookRepositoryTest {
     private PublisherRepository publisherRepository;
 
     @Autowired
-    private ReviewRepository reviewRepository;
+    private  ReviewRepository reviewRepository;
 
     @Autowired
     private UserRepository userRepository;
@@ -42,7 +42,7 @@ class BookRepositoryTest {
     }
 
     @Test
-    @Transactional
+    @Transactional // 지금은 OneToMany 에서 발생하는 LazyInitializationException 을 막기위해 사용
     void bookRelationTest() {
         System.out.println("\n-- TEST#bookRelationTest() ---------------------------------------------");
 
@@ -53,7 +53,13 @@ class BookRepositoryTest {
         User user = userRepository.findByEmail("martin@redknight.com");
 
         // 특정 User가 남긴 review 정보들 가져오기
-//        System.out.println("Review : " + user.getReviews());
+        System.out.println("Review : " + user.getReviews());
+
+        // 특정 User 가 남긴 Review 중 첫 번째 Review 의 Book 정보 가져오기
+        System.out.println("Book : " + user.getReviews().get(0).getBook());
+
+        // 특정 User 가 남긴 Review 중 첫 번째 Review 의 Book 의 Publisher 정보 가져오기
+        System.out.println("Publisher : " + user.getReviews().get(0).getBook().getPublisher());
 
 
         System.out.println("\n------------------------------------------------------------\n");
@@ -79,8 +85,8 @@ class BookRepositoryTest {
         review.setTitle("내 인생을 바꾼 책");
         review.setContent("너무너무 재미있고 즐거운 책이었어요");
         review.setScore(5.0f);
-        review.setUser(user);
-        review.setBook(book);
+        review.setUser(user);  // FK
+        review.setBook(book);  // FK
 
         reviewRepository.save(review);
     }

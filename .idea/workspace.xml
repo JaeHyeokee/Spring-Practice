@@ -4,17 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8005ebc-870e-4ea9-8a9a-7c5c512363fb" name="Changes" comment="Initial Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="c8005ebc-870e-4ea9-8a9a-7c5c512363fb" name="Changes" comment="Restore deleted files">
+      <change afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/Writing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/repository/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/repository/WritingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt17_JPA/src/test/java/com/lec/spring/repository/AuthorRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/Bt01_DI_Bean.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Bt01_DI_Bean.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Bt09_MVC.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Bt09_MVC.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Bt16_MyBatis.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Bt16_MyBatis.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Bt17_JPA.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Bt17_JPA.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Bt17_JPA.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Bt17_JPA.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Bt50_Board.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Bt50_Board.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Bt61_JPA_CRUD.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Bt61_JPA_CRUD.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/BookReviewInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/BookReviewInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/UserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/UserHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/repository/UserHistoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/repository/UserHistoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/test/java/com/lec/spring/repository/BookRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/test/java/com/lec/spring/repository/BookRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/test/java/com/lec/spring/repository/BookReviewInfoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/test/java/com/lec/spring/repository/BookReviewInfoRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/test/java/com/lec/spring/repository/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/test/java/com/lec/spring/repository/UserRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +65,15 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -69,19 +89,24 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2j8K1hVySkcvChmO8yQxTiqBo7J" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.AuthorRepositoryTest.manyToManyTest.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "Rebasing master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -93,6 +118,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lec.spring.repository" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -102,8 +135,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.BookReviewInfoRepositoryTest.crudTest3">
-    <configuration name="BookRepositoryTest.bookTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AuthorRepositoryTest.manyToManyTest">
+    <configuration name="AuthorRepositoryTest.manyToManyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Bt17_JPA" />
@@ -116,7 +149,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lec.spring.repository.BookRepositoryTest.bookTest&quot;" />
+            <option value="&quot;com.lec.spring.repository.AuthorRepositoryTest.manyToManyTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -265,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AuthorRepositoryTest.manyToManyTest" />
         <item itemvalue="Gradle.UserRepositoryTest.userRelationTest" />
         <item itemvalue="Gradle.UserRepositoryTest.userHistoryTest" />
         <item itemvalue="Gradle.UserRepositoryTest.preUpdateTest" />
         <item itemvalue="Gradle.BookReviewInfoRepositoryTest.crudTest3" />
-        <item itemvalue="Gradle.BookRepositoryTest.bookTest" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +323,7 @@
       <updated>1720763055453</updated>
       <workItem from="1720763060666" duration="330000" />
       <workItem from="1720763423489" duration="886000" />
-      <workItem from="1720764366778" duration="22000" />
+      <workItem from="1720764366778" duration="2834000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -300,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720763297792</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1720764596380</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720764596380</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +359,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Restore deleted files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restore deleted files" />
   </component>
 </project>

@@ -11,7 +11,7 @@ import lombok.ToString;
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
 @Entity
-public class BookReviewInfo extends BaseEntity {
+public class BookReviewInfo extends BaseEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,8 +21,8 @@ public class BookReviewInfo extends BaseEntity {
 //    private Long bookId;   // FK 역할
 
     // BookReviewInfo:Book 은 1:1
-    @OneToOne(optional = false)  // optional = false <= Book 은 절대 null 을 허용하지 않음
-    private Book book;  // 자식 -> 부모 Entity 를 직접 참조
+    @OneToOne(optional = false)     // optional = false  <= Book 은 절대 null 을 허용하지 않음
+    private Book book;   // 자식 -> 부모 Entity 를 직접 참조
 
 
     // NULL 을 허용하면 wrapper 객체 사용

@@ -27,13 +27,13 @@ public class UserHistory extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "user_id", insertable = false, updatable = false)
-    private Long userId;    // User 의 id
+    //    @Column(name = "user_id", insertable = false, updatable = false)
+//    private Long userId;    // User 의 id
     private String name;  // User 의 name
     private String email;   // User 의 email
 
     @ManyToOne
-    private User user;  // user_id
+    private User user;   // user_id
 
 //    @CreatedDate
 //    private LocalDateTime createdAt;

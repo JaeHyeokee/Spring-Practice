@@ -62,15 +62,15 @@ public class User extends BaseEntity {
 
     // User: UserHistory = 1:N
     @OneToMany(fetch = FetchType.EAGER)
-    @JoinColumn(name = "user_id"  // Entity 가 어떤 칼럼으로 join 하게 될지 지정해준다.
-                // name= "user_id"     :join 할 칼럼명 지정가능!
-                ///       UserHistory 의 user_id 란 칼럼으로 join
+    @JoinColumn(name = "user_id"   // Entity 가 어떤 컬럼으로 join 하게 될지 지정해준다.
+            // name= "user_id"    : join 할 컬럼명 지정가능!
+            ///      UserHistory 의 user_id 란 컬럼으로 join
 
             , insertable = false, updatable = false
-                // User 에서 userHistories 값을 추가, 수정하지 못하도록 하기 위해
+            // User 에서 userHistories 값을 추가,수정하지 못하도록 하기 위해
     )
     @ToString.Exclude
-    private List<UserHistory> userHistories = new ArrayList<>();  // NPE 방지
+    private List<UserHistory> userHistories = new ArrayList<>();   // NPE 방지
 
     // User:Review = 1:N
     @OneToMany

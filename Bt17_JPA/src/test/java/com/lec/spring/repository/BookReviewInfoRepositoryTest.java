@@ -83,7 +83,7 @@ class BookReviewInfoRepositoryTest {
         // 자식 -> 부모 조회하기
         // BookReviewInfo -> Book 조회하기
         Book result = bookReviewInfoRepository
-                .findById(1L)  // 이 때 join 문으로 OnetoOne 참조하는 부모까지 같이 가져온다!
+                .findById(1L) // 이때 join 문으로 OneToOne 참조하는 부모까지 같이 가져온다!
                 .orElseThrow(RuntimeException::new)
                 .getBook();  // 그래서 부모값을 참조하고 있다.
 
@@ -93,7 +93,7 @@ class BookReviewInfoRepositoryTest {
         // 부모 -> 자식 조회하기
         // Book -> BookReviewInfo
         BookReviewInfo result2 =
-            bookRepository.findById(1L).orElseThrow(RuntimeException::new).getBookReviewInfo();
+                bookRepository.findById(1L).orElseThrow(RuntimeException::new).getBookReviewInfo();
         System.out.println(">>>" + result2);
 
         System.out.println("\n------------------------------------------------------------\n");
@@ -124,6 +124,7 @@ class BookReviewInfoRepositoryTest {
 
         System.out.println(">>> " + bookReviewInfoRepository.findAll());
     }
+
 
 
 }
