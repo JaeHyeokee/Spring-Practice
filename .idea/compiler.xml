@@ -11,5 +11,28 @@
         <module name="Bt61_JPA_CRUD.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Bt01_DI_Bean" target="17" />
+      <module name="Bt01_DI_Bean.main" target="17" />
+      <module name="Bt01_DI_Bean.test" target="17" />
+      <module name="Bt09_MVC" target="17" />
+      <module name="Bt09_MVC.main" target="17" />
+      <module name="Bt09_MVC.test" target="17" />
+      <module name="Bt16_MyBatis" target="17" />
+      <module name="Bt16_MyBatis.main" target="17" />
+      <module name="Bt16_MyBatis.test" target="17" />
+      <module name="Bt17_JPA" target="17" />
+      <module name="Bt17_JPA.main" target="17" />
+      <module name="Bt17_JPA.test" target="17" />
+      <module name="Bt50_Board" target="17" />
+      <module name="Bt50_Board.main" target="17" />
+      <module name="Bt50_Board.test" target="17" />
+      <module name="Bt61_JPA_CRUD" target="17" />
+      <module name="Bt61_JPA_CRUD.main" target="17" />
+      <module name="Bt61_JPA_CRUD.test" target="17" />
+      <module name="SpringWork" target="17" />
+      <module name="SpringWork.main" target="17" />
+      <module name="SpringWork.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

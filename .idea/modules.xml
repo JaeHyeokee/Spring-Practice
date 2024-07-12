@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt01_DI_Bean.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt01_DI_Bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt01_DI_Bean.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt01_DI_Bean.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt01_DI_Bean.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt01_DI_Bean.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt09_MVC.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt09_MVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt09_MVC.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt09_MVC.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt09_MVC.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt09_MVC.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt16_MyBatis.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt16_MyBatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt16_MyBatis.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt16_MyBatis.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt16_MyBatis.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt16_MyBatis.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt17_JPA.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt17_JPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt17_JPA.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt17_JPA.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt17_JPA.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt17_JPA.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt50_Board.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt50_Board.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt50_Board.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt50_Board.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt50_Board.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt50_Board.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt61_JPA_CRUD.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt61_JPA_CRUD.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt61_JPA_CRUD.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt61_JPA_CRUD.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bt61_JPA_CRUD.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Bt61_JPA_CRUD.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringWork.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringWork.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringWork.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringWork.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringWork.test.iml" />
     </modules>
   </component>
 </project>
