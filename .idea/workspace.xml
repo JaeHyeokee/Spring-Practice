@@ -4,28 +4,182 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8005ebc-870e-4ea9-8a9a-7c5c512363fb" name="Changes" comment="Restore deleted files">
-      <change afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/Writing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/repository/AuthorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/repository/WritingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bt17_JPA/src/test/java/com/lec/spring/repository/AuthorRepositoryTest.java" afterDir="false" />
+    <list default="true" id="c8005ebc-870e-4ea9-8a9a-7c5c512363fb" name="Changes" comment="20240712 학습">
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/ERD/t7_web_test.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/Bt62JpaBoardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/config/CustomAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/config/CustomLoginFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/config/CustomLoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/config/CustomLogoutSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/config/MvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/config/PrincipalDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/config/PrincipalDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/config/oauth/PrincipalOauth2UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/config/oauth/provider/FacebookUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/config/oauth/provider/GoogleUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/config/oauth/provider/NaverUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/config/oauth/provider/OAuth2UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/controller/AttachmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/controller/OAuth2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/domain/Attachment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/domain/Authority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/domain/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/domain/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/domain/PostValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/domain/QryCommentList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/domain/QryResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/domain/UserValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/domain/oauth/KakaoOAuthToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/domain/oauth/KakaoProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/repository/AttachmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/repository/AuthorityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/service/AttachmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/service/AttachmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/service/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/service/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/java/com/lec/spring/util/U.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/static/image/facebook_login_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/static/image/google_login_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/static/image/kakao_login_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/static/image/naver_login_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/static/js/detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/static/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/static/js/update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/static/js/write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/board/Comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/board/deleteOk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/board/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/board/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/board/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/board/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/board/updateOk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/board/write.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/board/writeOk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/common/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/common/rejectAuth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/user/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/templates/views/user/registerOk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/test/java/com/lec/spring/Bt16MyBatisApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/ERD/t7_web_test.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/Bt62JpaBoardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/config/CustomAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/config/CustomLoginFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/config/CustomLoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/config/CustomLogoutSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/config/MvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/config/PrincipalDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/config/PrincipalDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/config/oauth/PrincipalOauth2UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/config/oauth/provider/FacebookUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/config/oauth/provider/GoogleUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/config/oauth/provider/NaverUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/config/oauth/provider/OAuth2UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/controller/AttachmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/controller/OAuth2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/domain/Attachment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/domain/Authority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/domain/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/domain/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/domain/PostValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/domain/QryCommentList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/domain/QryResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/domain/UserValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/domain/oauth/KakaoOAuthToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/domain/oauth/KakaoProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/repository/AttachmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/repository/AuthorityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/service/AttachmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/service/AttachmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/service/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/service/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/java/com/lec/spring/util/U.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/static/image/facebook_login_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/static/image/google_login_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/static/image/kakao_login_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/static/image/naver_login_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/static/js/detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/static/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/static/js/update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/static/js/write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/board/Comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/board/deleteOk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/board/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/board/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/board/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/board/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/board/updateOk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/board/write.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/board/writeOk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/common/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/common/rejectAuth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/user/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/templates/views/user/registerOk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/test/java/com/lec/spring/Bt16MyBatisApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Bt01_DI_Bean.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Bt01_DI_Bean.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Bt01_DI_Bean.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Bt09_MVC.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Bt16_MyBatis.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Bt17_JPA.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Bt17_JPA.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Bt50_Board.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Bt61_JPA_CRUD.main.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bt17_JPA/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/BookReviewInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/BookReviewInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/Publisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/UserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/domain/UserHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/repository/UserHistoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/main/java/com/lec/spring/repository/UserHistoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/test/java/com/lec/spring/repository/BookRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/test/java/com/lec/spring/repository/BookRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/test/java/com/lec/spring/repository/BookReviewInfoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/test/java/com/lec/spring/repository/BookReviewInfoRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bt17_JPA/src/test/java/com/lec/spring/repository/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/src/test/java/com/lec/spring/repository/UserRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +208,9 @@
     <projectState path="$PROJECT_DIR$/Bt61_JPA_CRUD">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/Bt62_JPA_Board">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -61,7 +218,12 @@
         <task path="$PROJECT_DIR$/Bt17_JPA">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -82,6 +244,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="dc73d98b-6ffb-4ae6-af80-e5e840d08be3" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -99,26 +264,35 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.AuthorRepositoryTest.manyToManyTest.executor": "Run",
+    "Gradle.Build Bt62_JPA_Board.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Bt62JpaBoardApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "Rebasing master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/DCON326/Dropbox/K19/SpringWork",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\DCON326\Dropbox\K19\SpringWork" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -135,7 +309,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.AuthorRepositoryTest.manyToManyTest">
+  <component name="RunManager" selected="Spring Boot.Bt62JpaBoardApplication">
     <configuration name="AuthorRepositoryTest.manyToManyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -296,6 +470,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Bt62JpaBoardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Bt62_JPA_Board.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lec.spring.Bt62JpaBoardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.AuthorRepositoryTest.manyToManyTest" />
@@ -323,7 +505,7 @@
       <updated>1720763055453</updated>
       <workItem from="1720763060666" duration="330000" />
       <workItem from="1720763423489" duration="886000" />
-      <workItem from="1720764366778" duration="2834000" />
+      <workItem from="1720764366778" duration="9542000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -341,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720764596380</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20240712 학습">
+      <option name="closed" value="true" />
+      <created>1720767842323</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720767842323</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +550,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Restore deleted files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restore deleted files" />
+    <MESSAGE value="20240712 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240712 학습" />
   </component>
 </project>
