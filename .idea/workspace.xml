@@ -4,9 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8005ebc-870e-4ea9-8a9a-7c5c512363fb" name="Changes" comment="20240715 회원제게시판학습">
+    <list default="true" id="c8005ebc-870e-4ea9-8a9a-7c5c512363fb" name="Changes" comment="20240716 회원제게시판학습마무리">
       <change afterPath="$PROJECT_DIR$/Bt62_JPA_Board/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Bt63_JPA_Board/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt65_JWT/ERD/test.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt65_JWT/src/main/java/com/lec/spring/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt65_JWT/src/main/java/com/lec/spring/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt65_JWT/src/main/java/com/lec/spring/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt65_JWT/src/main/java/com/lec/spring/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt65_JWT/src/main/java/com/lec/spring/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt65_JWT/src/main/java/com/lec/spring/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bt65_JWT/src/test/java/com/lec/spring/repository/UserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt16_MyBatis/.gradle/8.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Bt16_MyBatis/.gradle/8.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt16_MyBatis/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Bt16_MyBatis/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt16_MyBatis/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Bt16_MyBatis/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt16_MyBatis/src/main/resources/templates/views/board/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bt16_MyBatis/src/main/resources/templates/views/board/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bt17_JPA/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Bt17_JPA/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +59,9 @@
     <projectState path="$PROJECT_DIR$/Bt63_JPA_Board">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/Bt65_JWT">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -60,8 +81,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -94,26 +115,39 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.AuthorRepositoryTest.manyToManyTest.executor": "Run",
+    "Gradle.BookRepositoryTest.converterTest1.executor": "Run",
+    "Gradle.BookRepositoryTest.converterTest2.executor": "Run",
+    "Gradle.BookRepositoryTest.converterTest3.executor": "Run",
     "Gradle.BookRepositoryTest.executor": "Run",
+    "Gradle.BookRepositoryTest.nativeQueryTest1.executor": "Run",
+    "Gradle.BookRepositoryTest.nativeQueryTest2.executor": "Run",
+    "Gradle.BookRepositoryTest.nativeQueryTest4.executor": "Run",
     "Gradle.BookRepositoryTest.queryTest1.executor": "Run",
     "Gradle.BookRepositoryTest.queryTest4.executor": "Run",
     "Gradle.BookRepositoryTest.queryTest7.executor": "Run",
+    "Gradle.BookServiceTest.converterErrorTest1.executor": "Run",
+    "Gradle.Build Bt16_MyBatis.executor": "Run",
     "Gradle.Build Bt62_JPA_Board.executor": "Run",
     "Gradle.Build Bt63_JPA_Board.executor": "Run",
     "Gradle.JpaBoardTest.init.executor": "Run",
+    "Gradle.UserRepositoryTest.embededTest1.executor": "Run",
+    "Gradle.UserRepositoryTest.embededTest2.executor": "Run",
+    "Gradle.UserRepositoryTest.registerTest.executor": "Run",
+    "JavaScript Debug.update.html.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Bt16MyBatisApplication.executor": "Run",
     "Spring Boot.Bt62JpaBoardApplication.executor": "Run",
     "Spring Boot.Bt63JpaBoardApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "Rebasing master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/DCON326/Dropbox/K19/SpringWork/Bt63_JPA_Board",
+    "last_opened_file_path": "C:/DCON326/Dropbox/K19/SpringWork/Bt65_JWT",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -135,6 +169,7 @@
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.lec.spring.repository" />
+      <recent name="com.lec.spring.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -146,8 +181,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.BookRepositoryTest.queryTest1">
-    <configuration name="BookRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.UserRepositoryTest.registerTest">
+    <configuration name="BookRepositoryTest.converterTest3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Bt17_JPA" />
@@ -160,7 +195,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lec.spring.repository.BookRepositoryTest&quot;" />
+            <option value="&quot;com.lec.spring.repository.BookRepositoryTest.converterTest3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -171,7 +206,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="BookRepositoryTest.queryTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BookServiceTest.converterErrorTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Bt17_JPA" />
@@ -184,7 +219,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lec.spring.repository.BookRepositoryTest.queryTest1&quot;" />
+            <option value="&quot;com.lec.spring.service.BookServiceTest.converterErrorTest1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -195,7 +230,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="BookRepositoryTest.queryTest4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRepositoryTest.embededTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Bt17_JPA" />
@@ -208,7 +243,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lec.spring.repository.BookRepositoryTest.queryTest4&quot;" />
+            <option value="&quot;com.lec.spring.repository.UserRepositoryTest.embededTest1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -219,7 +254,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="BookRepositoryTest.queryTest7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRepositoryTest.embededTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Bt17_JPA" />
@@ -232,7 +267,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lec.spring.repository.BookRepositoryTest.queryTest7&quot;" />
+            <option value="&quot;com.lec.spring.repository.UserRepositoryTest.embededTest2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -243,10 +278,10 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="JpaBoardTest.init" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRepositoryTest.registerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Bt63_JPA_Board" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Bt65_JWT" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -256,7 +291,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lec.spring.repository.JpaBoardTest.init&quot;" />
+            <option value="&quot;com.lec.spring.repository.UserRepositoryTest.registerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -323,13 +358,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Bt65JwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Bt65_JWT.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lec.spring.Bt65JwtApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BookRepositoryTest.queryTest1" />
-        <item itemvalue="Gradle.BookRepositoryTest" />
-        <item itemvalue="Gradle.BookRepositoryTest.queryTest7" />
-        <item itemvalue="Gradle.BookRepositoryTest.queryTest4" />
-        <item itemvalue="Gradle.JpaBoardTest.init" />
+        <item itemvalue="Gradle.UserRepositoryTest.registerTest" />
+        <item itemvalue="Gradle.UserRepositoryTest.embededTest2" />
+        <item itemvalue="Gradle.UserRepositoryTest.embededTest1" />
+        <item itemvalue="Gradle.BookServiceTest.converterErrorTest1" />
+        <item itemvalue="Gradle.BookRepositoryTest.converterTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -352,6 +395,12 @@
       <workItem from="1720763423489" duration="886000" />
       <workItem from="1720764366778" duration="9542000" />
       <workItem from="1720941365328" duration="33608000" />
+      <workItem from="1721088426575" duration="10120000" />
+      <workItem from="1721779823203" duration="5196000" />
+      <workItem from="1721792485808" duration="3687000" />
+      <workItem from="1721867409759" duration="694000" />
+      <workItem from="1721963720310" duration="862000" />
+      <workItem from="1721971145520" duration="3775000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -393,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721036043260</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="20240716 회원제게시판학습마무리">
+      <option name="closed" value="true" />
+      <created>1721099267795</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721099267795</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,6 +471,7 @@
     <MESSAGE value="Restore deleted files" />
     <MESSAGE value="20240712 학습" />
     <MESSAGE value="20240715 회원제게시판학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="20240715 회원제게시판학습" />
+    <MESSAGE value="20240716 회원제게시판학습마무리" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240716 회원제게시판학습마무리" />
   </component>
 </project>
